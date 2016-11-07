@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head runat="server">
+    <title>Branitz Video Player</title>
+    <link rel="stylesheet" href="style.css" media="screen" title="no title">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+
+<body>
+    <div class="background_container">
+        <form id="form1" runat="server">
+            <div class="top-display">
+                <div class="col-md-4 text-left">
+                    <a href="#" class="header_text">Branitz</a>
+                </div>
+                <div class="col-md-4">
+                    <label for="LessonName" class="text-left lesson">Select a Lesson</label>
+                    <select id="LessonName" class="lesson_dropdown">
+                <option value="Select">Select a lesson</option>
+                <option value="CardSort">Card Sort</option>
+            </select>
+                </div>
+                <div class="col-md-4 text-right">
+                    <button id="GoHomebtn" class="btn text-right home_button">Home</button>
+                </div>
+
+            </div>
+
+            <div id="VideoDisplayPanel" class="container">
+                <div class="col-md-12">
+                    <div class="right-display">
+                        <div id="BrainitzVideoPlayerBox">
+                            <video id="BrainitzVideoPlayer" width="800">
+                <source src="/Videos/Wisconsin Card Sorting Test.mp4" type="video/mp4" />
+            </video>
+
+                            <div id="VideoControlsBar">
+                                <input id="ProbeMarkerDisplaytxt" type="text" onclick="ProbeMarker_ButtonClick()" value="▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬" style="width:775px;  border-style:inset; font:bold 14px courier new;"
+                                />
+                                <input type="range" id="SeekSlidercnt" style="width:760px;" min="0" max="100" value="0" step="1" />
+                                <button id="PlayPausebtn" type="button" class="btn video_button">Play</button>
+                                <button id="InsertProbebtn" type="button" class="btn video_button">Insert Probe</button>
+                                <a id="VideoPosition" style="font: normal 14px arial;">000000</a>
+                                <a id="VideoLength" style="margin-left: 20px; font: normal 14px arial;">000000</a>
+                                <a id="ProbeIndex"></a>
+                            </div>
+                        </div>
+                        <div id="BrainitzQuestionBox">
+                            <div class="container">
+                                <div class="col-md-6">
+                                  <select id="QuestionType" onchange="DisplayQuestionType(event)">
+                                    <option value="Selected Question">Select Question Type</option>
+                                    <option value="MC2">Multiple Choice (2)</option>
+                                    <option value="MC3">Multiple Choice (3)</option>
+                                    <option value="MC4">Multiple Choice (4)</option>
+                                    <option value="MC5">Multiple Choice (5)</option>
+                                    <option value="MC6">Multiple Choice (6)</option>
+                                    <option value="MC7">Multiple Choice (7)</option>
+                                    <option value="MC8">Multiple Choice (8)</option>
+                                    <option value="T-F">True False</option>
+                                    <option value="FiB">Fill in the Blank </option>
+                                    <option value="ShA">Short Answer</option>
+                                    <option value="Inf">Information</option>
+                                  </select>
+                                </div>
+                                <div class="col-md-6">
+                                    <button id="QuestionSavebtn" type="button" class="btn btn_spacer1">Save</button>
+                                    <button id="QuestionCancelbtn" type="button" class="btn btn_spacer" onclick="QuestionCancel()">Cancel</button>
+                                    <button id="QuestionDonebtn" type="button" class="btn btn_spacer" onclick="Done_ClickEvent()">Done</button>
+                                </div>
+                            </div>
+                            <div id="QuestionDisplayBox">
+                                <a id="QuestionCaption" style="margin-left:15px; margin-top:15px; font:bold 16px arial;"></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom-display"></div>
+        </form>
+    </div>
+    <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
