@@ -1,0 +1,422 @@
+
+
+/*
+
+#012241
+#2E495A
+#7CBDDA
+#A5A4A1
+#F0EEEF
+#468966
+#DB9E36
+
+*/
+
+
+
+/*font-family: 'Roboto', sans-serif;*/
+
+h3, p{
+  font-family: 'Roboto', sans-serif;
+}
+.splash-title{
+  margin-top: -1%;
+  font-size: 12em;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+  color:#7CBDDA;
+  font-weight: bold;
+  border-color: 1px solid black;
+  text-shadow: 2px 2px  4px #A5A4A1;
+}
+
+.btn-style{
+  background-color: #7CBDDA ;
+  color: white;
+  letter-spacing: .7px;
+  font-family: 'Roboto', sans-serif;
+  box-shadow: 1px 1px 2px black;
+}
+
+.btn-style:hover {
+  color: #012241   !important;
+}
+
+.video-toggle-btn {
+  height: 10vh ;
+  width: 50vw ;
+  background-color: #012241;
+  margin-top: 15%;
+  box-shadow: 3px 3px 5px black;
+
+}
+.video-toggle-btn:hover{
+  background-color: #7CBDDA;
+}
+.video-js{
+  margin-top: 4vh;
+}
+.splash-button-text{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  margin: auto;
+  color: #F0EEEF ;
+}
+.navbar {
+  background-color: #F0EEEF ;
+  letter-spacing: .8px;
+  opacity: .8;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+
+.navbar-brand {
+  font-size:2.2em;
+  letter-spacing: .8px;
+  color: #7CBDDA  !important;
+  font-family: 'Roboto', sans-serif;
+  /*text-shadow: .3px .3px 1px #012241  ;*/
+}
+
+.modal-design{
+  background-color: black;
+}
+
+.navbar-brand:hover {
+  color: #2E495A   !important;
+}
+
+.community-images{
+  height: 30vh;
+  width: 40vh;
+}
+
+.navbar-nav li a {
+  color: #7CBDDA  !important;
+  font-size: 1.2em;
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar-nav li a:hover {
+  color: #2E495A  !important;
+}
+.modal-dialog{
+  background-color:#A5A4A1;
+}
+
+.modal-body {
+  z-index: 2000;
+}
+
+.SignInFooter{
+  margin-left: 1vw;
+}
+
+.buttonTwo{
+  margin-left: 1vw;
+}
+
+#topContainer {
+  background-image: url("../images/science_splash.jpg");
+  height: 100vh;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.price-header-cont{
+  margin-top: 4.5%;
+  height: 11vh;
+  width:100%;
+  background-color: #2E495A;
+  background-size: cover;
+}
+
+#pricing{
+  margin-top: 1vh;
+  color: #F0EEEF;
+  font-family: 'Roboto', sans-serif;
+}
+
+.beta-text-cont{
+  margin-top: -2%;
+  height: 10vh;
+  width: 100%;
+  background-color:#F0EEEF;
+}
+
+.pricing-container{
+  margin-top: 10vh;
+}
+
+/*
+
+#012241
+#2E495A
+#7CBDDA
+#A5A4A1
+#F0EEEF
+#468966
+#DB9E36
+
+*/
+
+.main-container{
+  background-color: #2E495A;
+  height: 100vh;
+}
+.beta-text-loc{
+  color: black;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 2vh;
+}
+.beta-slogan{
+  margin-top: 5vh;
+  font-family: 'Roboto', sans-serif;
+  color: #F0EEEF;
+  font-size: 2.5em;
+}
+.pricing-box{
+  margin-top: 8vh;
+  color:#F0EEEF;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+}
+.hr1 {
+    display: block;
+    border: 0;
+    border-top: 3px solid #7CBDDA;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.hr2{
+  display: block;
+  border: 0;
+  border-top: 3px solid #012241;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+
+#012241
+#2E495A
+#7CBDDA
+#A5A4A1
+#F0EEEF
+#468966
+#DB9E36
+
+*/
+.block1{
+  height: 50vh;
+  background-color:#012241;
+
+}
+.block2{
+  height: 50vh;
+  background-color: #7CBDDA;
+}
+.block3{
+  height: 50vh;
+  background-color:#012241;
+}
+.block4{
+  height: 50vh;
+  background-color:#7CBDDA;
+}
+.pric-col-header{
+  margin-top: -2vh;
+  height:5vh;
+  width: 100%;
+  color:#F0EEEF;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.pric-col-header-middle{
+  background-color: ;
+  height:6vh;
+  width: 100%;
+  margin: auto;
+  color:#F0EEEF;
+  letter-spacing: 1px;
+  font-family: 'Roboto', sans-serif;
+
+}
+.btn-spacing{
+  margin-top: 5vh;
+}
+
+#topRow {
+  margin-top:100px;
+  text-align:center;
+}
+
+#topRow h1 {
+  font-size:300%;
+}
+
+#emailSignup {
+  margin-top:50px;
+}
+
+#SignInModalTitle{
+	color:white;
+}
+
+.bold {
+  font-weight:bold;
+  color:black;
+}
+
+.marginTop {
+  margin-top:30px;
+}
+
+.center {
+  text-align:center;
+}
+
+.title1{
+  color: #FAF1C9;
+  margin-top:100px;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+
+}
+.title {
+  color: #F9EFC2;
+  margin-top:100px;
+  font-size: 48px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 1px;
+
+}
+
+#details {
+  background-color:#2E495A  ;
+}
+
+#demo {
+  padding-top:35px;
+  width:100%;
+  background-color: #022E4A;
+  text-align: center;
+}
+
+#community {
+  background-color: #294050;
+}
+
+.FAQ-header {
+  color:#F0EEEF;
+  margin-top: 6%;
+  font-family: 'Roboto', sans-serif;
+}
+.container-background{
+  background-color: #F0EEEF;
+  height: 100vh;
+
+}
+.FAQContent {
+  margin-top: 2%;
+  background-color:#F0F8FF;
+  font-family: 'Roboto', sans-serif;
+  weight:100%;
+}
+.faq-content-container{
+  height: 20vh;
+  width:auto;
+  background-color:#2E495A;
+}
+
+.marginBottom {
+  margin-bottom:30px;
+}
+
+.content-container {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 8vh;
+  padding-bottom: 8vh;
+}
+
+.teachifyImage {
+  width: 40vw;
+  height: auto;
+}
+
+.lead {
+  font-weight:bold;
+  font-size:200%;
+  color:#ECE8EA;
+}
+
+.lead2 {
+  font-weight:bold;
+  font-size:200%;
+  color:#EEEBED;
+}
+
+.vjs-control-bar {
+  display: none;
+}
+
+.vjs-caption-settings {
+  display: none;
+}
+
+.icon-images {
+  width: 10vw;
+  height: auto;
+}
+
+.answer-cards-content {
+  background-color: white;
+  height: 45vh;
+  width: 28vw;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8%;
+  box-shadow: 5px 5px 5px #A5A4A1;
+}
+
+.card-text {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.-images {
+  width: 20vw;
+  height: auto;
+}
+
+.community-cards {
+  text-align: center;
+}
+
+.community-cards-content {
+  background-color: #F0EEEF;
+  height: 40vh;
+  width: 25vw;
+  padding: 20px;
+  margin-top: 20px;
+  margin-left: 10%;
+  box-shadow: 5px 5px 5px #A5A4A1;
+  border-radius: 8%;
+}
+
+.pricing-images {
+  width: 48vw;
+  height: auto;
+}
+
+.pricing-icon {
+  width: 3vw;
+  height: auto;
+  margin-top: 20px;
+  margin-bottom: 20px
+}
